@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
   honorifics = ['Dr.', 'Mr.', 'Mrs.', 'Ms.'];
   signupForm!: FormGroup;
   forbiddenUsernames = ['john.doe', 'jane.doe'];
+  forbiddenInterest = [ null, '', ' ' ];
 
   constructor(private formBuilder: FormBuilder) {}
 
